@@ -8,7 +8,7 @@ function deck_o_cards() {
     {
       'hearts' : 'Ace',
       'hearts' : 'King',
-      
+
     }
 
   ]; <---I feel like i want to populate that array with all the 52 cards writng them as strings for their two values
@@ -17,10 +17,21 @@ function deck_o_cards() {
   var shuffledCards = []; // deck shuffled//<-----shuffled array, 'shuffled'
 
 
-  function card(value, suits) //<------Object
+  function card(value, suits) {}//<------Object
   this.value = value;
   this.suits = suits;
+}
 
+function deck_o_cards
+ this.value=[2,3,4,5,6,7,8,9,10,'jack','queen','king','ace']
+
+ for(var i=0; i<this.value.length; i++){
+   for(var n=0, n<this.suits.length; n++){
+     cards.push(newcard(i +1, this.value[i].this.suits[n]));
+   }
+ }
+
+ console.log(deck_o_cards())
   console.log(shuffleArray)
 
 
